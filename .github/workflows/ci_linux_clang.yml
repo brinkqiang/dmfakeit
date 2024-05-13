@@ -1,8 +1,7 @@
 name: CI Linux/Clang
 
 on:
-  push:
-  pull_request:
+  workflow_dispatch:
 
 defaults:
   run:

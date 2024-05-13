@@ -9,7 +9,7 @@ INCLUDE(cmake/ModuleCompileOptions.cmake)
 ModuleSetCompileOptions()
 ModuleSetWinCompilerFlags()
 
-option(ENABLE_TESTING "Enable build of tests." OFF)
+option(ENABLE_TESTING "Enable build of tests." ON)
 option(OVERRIDE_CXX_STANDARD_FOR_TESTS "Override the C++ standard used for building tests." "")
 option(ENABLE_SANITIZERS_IN_TESTS "Enable address / undefined sanitizers in tests." OFF)
 option(ENABLE_COVERAGE "Enable coverage reporting for gcc/clang." OFF)

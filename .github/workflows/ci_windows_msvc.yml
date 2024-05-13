@@ -1,8 +1,7 @@
 name: CI Windows/MSVC
 
 on:
-  push:
-  pull_request:
+  workflow_dispatch:
 
 defaults:
   run:
