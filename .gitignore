@@ -1,14 +1,64 @@
-CMakeCache.txt
-CMakeFiles
-CMakeScripts
-Testing
-Makefile
-cmake_install.cmake
-install_manifest.txt
-compile_commands.json
-CTestTestfile.cmake
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
 
-/bin/*
-/lib/*
-/build/*
-/.vscode/*
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# VS files
+*.log
+*.pch
+*.ipch
+*.idb
+*.pdb
+*.tlog
+*.suo
+*.sdf
+*.filters
+*.opensdf
+*.user
+*.opendb
+Debug/
+ipch/
+TestResults/
+tests/cmake-build-debug/
+tests/x64/
+*/.vs/
+
+# Eclipse
+.settings/
+.metadata/
+
+# CLion files
+.idea/
+cmake-build-*/
+
+# bii
+bii/
+
+# temporary
+*.tmp
+*.d
+
+# gcov
+*.gcno
+*.gcda
+*.gcov
+
+# Binary
+*.exe
+*.pyc
+
+*.*~
+*.nupkg
+
